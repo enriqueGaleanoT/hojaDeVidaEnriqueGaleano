@@ -21,6 +21,10 @@ a{
     text-decoration: none;
 }
 
+ol{
+    list-style: none;
+}
+
 .container-global{
     position: relative;
     width: 100%;
@@ -77,10 +81,12 @@ a{
     color: white;
 }
 .container-infoGen h1{
+    text-align: center;
     padding-top: 30px;
     font-size: 20px;
     text-transform: capitalize;
-    border-bottom: 3px solid rgb(255,255,255, 0.2);
+    border-bottom: 3px solid rgb(255,255,255, 0.5);
+    width: 100%;
     padding-bottom: 10px;
 }
 
@@ -102,6 +108,26 @@ a{
     letter-spacing: 15px;
 }
 
+.skill-esp{
+    width: 100%;
+    border-top: 3px solid rgb(255,255,255, 0.5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.esp{
+    position: relative;
+    width: 100%; background-color:#04AA6D;
+    border-radius: 100px;
+}
+
+.skill-ing{
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
 .container-skill{
     width: 100%;
     background-color: whitesmoke;
@@ -115,9 +141,10 @@ a{
     padding-bottom: 10px;
     color: white;
     position: relative;
+    
 }
 
-.html{
+.ing{
     position: relative;
     width: 95%; background-color:#04AA6D;
     border-radius: 100px;
