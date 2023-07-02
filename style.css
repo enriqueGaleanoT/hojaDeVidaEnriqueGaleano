@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Montserrat:ital,wght@0,400;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(169, 169, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container-global{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container-global .container-left{
+    position: relative;
+    background: rgb(0, 61, 125);
+    background-image: linear-gradient(lightblue, navy);
+    padding: 40px;
+}
+.container-global .container-right{
+    position: relative;
+    background: whitesmoke;
+    padding: 40px;
+}
+
+.container-infoGen{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-bottom: 3px solid rgb(255,255,255, 0.2); */
+    padding-bottom: 25px;
+}
+
+.container-infoGen .img-profile{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.container-infoGen .img-profile img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container-infoGen{
+    color: white;
+}
+
+.container-global a{
+    color: white;
+}
+.container-infoGen h1{
+    padding-top: 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-bottom: 3px solid rgb(255,255,255, 0.2);
+    padding-bottom: 10px;
+}
+
+
+.container-infoGen a{
+    padding-top: 10px;
+    /* border-bottom: 3px solid rgb(255,255,255, 0.2); */
+    padding-bottom: 10px;
+}
+
+.container-infoGen ul li{
+    position: relative;
+    margin: 10px 0;   
+    font-size: 13px;
+}
+
+.container-infoGen i{
+    display: inline-block;
+    letter-spacing: 15px;
+}
+
+.container-skill{
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    position: relative;
+}
+
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    position: relative;
+}
+
+.html{
+    position: relative;
+    width: 95%; background-color:#04AA6D;
+    border-radius: 100px;
+}
