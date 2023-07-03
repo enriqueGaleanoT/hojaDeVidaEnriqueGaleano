@@ -71,8 +71,6 @@ ol{
     height: 100%;
 }
 
-
-
 .container-infoGen{
     color: white;
 }
@@ -89,7 +87,6 @@ ol{
     width: 100%;
     padding-bottom: 10px;
 }
-
 
 .container-infoGen a{
     padding-top: 10px;
@@ -113,11 +110,13 @@ ol{
     border-top: 3px solid rgb(255,255,255, 0.5);
     padding-bottom: 10px;
     padding-top: 10px;
+    font-size: 15px;
 }
 
 .esp{
     position: relative;
-    width: 100%; background-color:#04AA6D;
+    width: 100%; 
+    background-color:#04AA6D;
     border-radius: 100px;
 }
 
@@ -125,6 +124,7 @@ ol{
     width: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
+    font-size: 15apx;
 
 }
 
@@ -148,4 +148,26 @@ ol{
     position: relative;
     width: 95%; background-color:#04AA6D;
     border-radius: 100px;
+}
+
+.profile h1{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+
+.dates{
+    position: relative;
+    display: flex;
+    display: block;
+}
+
+.container-exp{
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container-exp h2{
+    padding-bottom: 10px;
 }
