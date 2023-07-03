@@ -155,6 +155,11 @@ ol{
     font-size: 25px;
 }
 
+.profile{
+    margin-bottom: 20px;
+}
+
+
 
 .dates{
     position: relative;
@@ -163,6 +168,8 @@ ol{
 }
 
 .container-exp{
+    width: 100%;
+    border-top: 3px solid rgba(249, 0, 0, 0.5);
     position: relative;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -179,4 +186,34 @@ ol{
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 13px;
+}
+
+
+.container-exp li{
+    font-size: 15px;
+}
+
+.titles{
+    display: block;
+}
+
+.formation{
+    width: 100%;
+    border-top: 3px solid rgba(249, 0, 0, 0.5);
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.formation i{
+    display: inline-block;
+    letter-spacing: 5px;
+}
+
+.container-habiTec{
+    width: 100%;
+    border-top: 3px solid rgba(249, 0, 0, 0.5);
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
