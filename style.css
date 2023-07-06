@@ -108,6 +108,17 @@ ol{
     letter-spacing: 15px;
 }
 
+.intereses h4{
+    width: 100%;
+    border-top: 3px solid rgb(255,255,255, 0.5);
+    position: relative;
+    text-align: left;
+    margin-right: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
 .skill-esp{
     width: 100%;
     border-top: 3px solid rgb(255,255,255, 0.5);
